@@ -91,6 +91,11 @@ with(
 )
 ```
 
+
+
 **7. Exportación.** CSV limpio y `history.json` con las 23 operaciones.
 
 **Limitaciones:** las coordenadas siguen en UTM (no se convierten a latitud/longitud); los peatones heredan el `ID_vehiculo` del conductor anterior; `positiva_droga` solo distingue `true` y `Desconocido`.
+
+## Comments on the self-assessment
+(If required)
