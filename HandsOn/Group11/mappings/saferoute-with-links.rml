@@ -23,7 +23,7 @@
     rml:referenceFormulation ql:CSV
   ];
   rr:subjectMap [
-    rr:template "https://w3id.org/saferoutemadrid/resource/TrafficAccident/{num_expediente}";
+    rr:template "https://w3id.org/saferoutemadrid/resource/TrafficAccident_{num_expediente}";
     rr:class ns:TrafficAccident
   ];
 
@@ -93,7 +93,7 @@
     rml:referenceFormulation ql:CSV
   ];
   rr:subjectMap [
-    rr:template "https://w3id.org/saferoutemadrid/resource/Location/{num_expediente}";
+    rr:template "https://w3id.org/saferoutemadrid/resource/Location_{num_expediente}";
     rr:class ns:Location
   ];
 
@@ -165,7 +165,7 @@ rr:predicateObjectMap [
     rml:referenceFormulation ql:CSV
   ];
   rr:subjectMap [
-    rr:template "https://w3id.org/saferoutemadrid/resource/Point/{num_expediente}";
+    rr:template "https://w3id.org/saferoutemadrid/resource/Point_{num_expediente}";
     rr:class ns:Point
   ];
 
@@ -199,7 +199,7 @@ rr:predicateObjectMap [
     rml:referenceFormulation ql:CSV
   ];
   rr:subjectMap [
-    rr:template "https://w3id.org/saferoutemadrid/resource/District/{cod_distrito}";
+    rr:template "https://w3id.org/saferoutemadrid/resource/District_{cod_distrito}";
     rr:class ns:District
   ];
 
@@ -241,7 +241,7 @@ rr:predicateObjectMap [
     rml:referenceFormulation ql:CSV
   ];
   rr:subjectMap [
-    rr:template "https://w3id.org/saferoutemadrid/resource/Vehicle/{ID_vehiculo}";
+    rr:template "https://w3id.org/saferoutemadrid/resource/Vehicle_{ID_vehiculo}";
     rr:class ns:Vehicle
   ];
 
@@ -273,7 +273,7 @@ rr:predicateObjectMap [
     rml:referenceFormulation ql:CSV
   ];
   rr:subjectMap [
-    rr:template "https://w3id.org/saferoutemadrid/resource/Person/{ID_persona}";
+    rr:template "https://w3id.org/saferoutemadrid/resource/Person_{ID_persona}";
     rr:class ns:Person
   ];
 
@@ -337,7 +337,7 @@ rr:predicateObjectMap [
     rml:referenceFormulation ql:CSV
   ];
   rr:subjectMap [
-    rr:template "https://w3id.org/saferoutemadrid/resource/AccidentType/{tipo_accidente}";
+    rr:template "https://w3id.org/saferoutemadrid/resource/AccidentType_{tipo_accidente}";
     rr:class ns:AccidentType, skos:Concept
   ];
 
@@ -363,7 +363,7 @@ rr:predicateObjectMap [
     rml:referenceFormulation ql:CSV
   ];
   rr:subjectMap [
-    rr:template "https://w3id.org/saferoutemadrid/resource/WeatherCondition/{estado_meteorológico}";
+    rr:template "https://w3id.org/saferoutemadrid/resource/WeatherCondition_{estado_meteorológico}";
     rr:class ns:WeatherCondition, skos:Concept
   ];
 
@@ -381,7 +381,7 @@ rr:predicateObjectMap [
     rml:referenceFormulation ql:CSV
   ];
   rr:subjectMap [
-    rr:template "https://w3id.org/saferoutemadrid/resource/VehicleType/{tipo_vehiculo}";
+    rr:template "https://w3id.org/saferoutemadrid/resource/VehicleType_{tipo_vehiculo}";
     rr:class ns:VehicleType, skos:Concept
   ];
 
@@ -407,7 +407,7 @@ rr:predicateObjectMap [
     rml:referenceFormulation ql:CSV
   ];
   rr:subjectMap [
-    rr:template "https://w3id.org/saferoutemadrid/resource/PersonType/{tipo_persona}";
+    rr:template "https://w3id.org/saferoutemadrid/resource/PersonType_{tipo_persona}";
     rr:class ns:PersonType, skos:Concept
   ];
 
@@ -433,7 +433,7 @@ rr:predicateObjectMap [
     rml:referenceFormulation ql:CSV
   ];
   rr:subjectMap [
-    rr:template "https://w3id.org/saferoutemadrid/resource/AgeRange/{rango_edad}";
+    rr:template "https://w3id.org/saferoutemadrid/resource/AgeRange_{rango_edad}";
     rr:class ns:AgeRange, skos:Concept
   ];
 
@@ -451,7 +451,7 @@ rr:predicateObjectMap [
     rml:referenceFormulation ql:CSV
   ];
   rr:subjectMap [
-    rr:template "https://w3id.org/saferoutemadrid/resource/Sex/{sexo}";
+    rr:template "https://w3id.org/saferoutemadrid/resource/Sex_{sexo}";
     rr:class ns:Sex, skos:Concept
   ];
 
@@ -469,7 +469,7 @@ rr:predicateObjectMap [
     rml:referenceFormulation ql:CSV
   ];
   rr:subjectMap [
-    rr:template "https://w3id.org/saferoutemadrid/resource/InjurySeverity/{lesividad}";
+    rr:template "https://w3id.org/saferoutemadrid/resource/InjurySeverity_{lesividad}";
     rr:class ns:InjurySeverity, skos:Concept
   ];
 
